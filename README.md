@@ -1,8 +1,8 @@
 # PCA: EXP-1  SUM ARRAY GPU
-<h3>ENTER YOUR NAME</h3> RONICK AAKSHATH P
-<h3>ENTER YOUR REGISTER NO</h3> 212222240084
-<h3>EX. NO</h3> 
-<h3>DATE</h3>
+### Name: RONICK AAKSHATH P
+### Reg. No.: 212222240084
+### Exp. No.: 01
+### Date: 
 <h1> <align=center> SUM ARRAY ON HOST AND DEVICE </h3>
 PCA-GPU-based-vector-summation.-Explore-the-differences.
 i) Using the program sumArraysOnGPU-timer.cu, set the block.x = 1023. Recompile and run it. Compare the result with the execution configuration of block.x = 1024. Try to explain the difference and the reason.
@@ -174,5 +174,14 @@ int main(int argc, char **argv)
 ## OUTPUT:
 ![image](https://github.com/Ronick2005/PCA-EXP-1-SUM-ARRAY-GPU-AY-23-24/assets/83219341/de2f34cc-87a1-4445-aa9e-c28daef4dfa8)
 
+### block.x = 1023
+![image](https://github.com/Ronick2005/PCA-EXP-1-SUM-ARRAY-GPU-AY-23-24/assets/83219341/3769578e-c4eb-4f8e-ab80-39987d04febd)
+
+### block.x = 1024
+![image](https://github.com/Ronick2005/PCA-EXP-1-SUM-ARRAY-GPU-AY-23-24/assets/83219341/4b6ec847-1957-49ed-b794-a76883131e49)
+
+### block.x = 256
+![image](https://github.com/Ronick2005/PCA-EXP-1-SUM-ARRAY-GPU-AY-23-24/assets/83219341/cd2d5a40-8621-46d6-aec9-5c1e1de93c53)
+
 ## RESULT:
-Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.
+Thus, the implementation of sum arrays on the host and device is done in nvcc cuda using a random number.
